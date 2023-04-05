@@ -15,7 +15,7 @@ public class Exercicio_6 {
     } else if (-2 <= x && x < 3) {
       f = 3;
     } else {
-      f = -3;
+      f = -x;
     }
 
     System.out.format("O resultado da função é %.2f", f);
