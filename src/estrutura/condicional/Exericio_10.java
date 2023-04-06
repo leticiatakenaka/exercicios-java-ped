@@ -28,7 +28,6 @@ public class Exericio_10 {
 
     if (sexo.equals("F")) {
       if (idade <= 18) {
-        System.out.println("idade");
         mensalidade = 60;
       } else if (idade <= 19 && idade <= 25) {
         mensalidade = 90;
