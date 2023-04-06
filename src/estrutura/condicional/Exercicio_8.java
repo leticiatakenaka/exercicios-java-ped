@@ -40,5 +40,7 @@ public class Exercicio_8 {
     if (num2 != 0) {
       System.out.format("%s / %s = %s\n", num1, num2, (num1 / num2));
     }
+    input.close();
+
   }
 }
