@@ -19,5 +19,7 @@ public class Exercicio_6 {
     }
 
     System.out.format("O resultado da função é %.2f", f);
+
+    input.close();
   }
 }

@@ -10,7 +10,6 @@ public class Exercicio_1 {
   // >= 7 -> Aprovado
   // < 7 -> Reprovado
   public static void main(String[] args) {
-    // TODO Auto-generated method stub
 
     Scanner input = new Scanner(System.in);
 
@@ -27,12 +26,12 @@ public class Exercicio_1 {
 
     if (media >= 7) {
       System.out.print("Parabens, voce foi aprovado!");
-
     }
 
     if (media < 7) {
       System.out.print("Sinto muito, voce foi reprovado.");
     }
+    input.close();
 
   }
 

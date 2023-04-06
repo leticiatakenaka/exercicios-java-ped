@@ -15,6 +15,8 @@ public class Exercicio_12 {
     numero = input.nextInt();
 
     calculaTabuada(numero);
+    input.close();
+
   }
 
   static void calculaTabuada(int n) {

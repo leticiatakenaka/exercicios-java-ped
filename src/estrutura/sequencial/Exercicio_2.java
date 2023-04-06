@@ -21,6 +21,7 @@ public class Exercicio_2 {
 
     System.out.print("Você tem: " + calculaIdade(anoAtual, anoNasc) + " anos\n");
     System.out.print("Em 2050 você terá: " + calculaIdade(2050, anoNasc) + " anos");
+    input.close();
 
   }
 

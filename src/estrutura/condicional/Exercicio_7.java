@@ -2,7 +2,7 @@ package estrutura.condicional;
 
 import java.util.Scanner;
 
-public class Exerciicio_7 {
+public class Exercicio_7 {
   public static void main(String[] args) {
 
     /*
@@ -29,6 +29,8 @@ public class Exerciicio_7 {
     if (x > (y + z) || z > (y + x) || y > (x + z)) {
       System.out.println("Não é um triângulo");
     }
+    input.close();
+
   }
 
 }

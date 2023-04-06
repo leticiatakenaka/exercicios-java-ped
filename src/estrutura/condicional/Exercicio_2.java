@@ -14,7 +14,6 @@ public class Exercicio_2 {
 
   // >= 7 e <= 10 APROVADO
   public static void main(String[] args) {
-    // TODO Auto-generated method stub
 
     Scanner input = new Scanner(System.in);
     double nota1, nota2, nota3, media;
@@ -45,5 +44,6 @@ public class Exercicio_2 {
     if (media >= 7 && media <= 10) {
       System.out.print("APROVADO");
     }
+    input.close();
   }
 }

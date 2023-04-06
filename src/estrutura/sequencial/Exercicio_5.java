@@ -17,5 +17,6 @@ public class Exercicio_5 {
     menor = input.nextDouble();
 
     System.out.print("A área é " + (maior + menor) / 2);
+    input.close();
   }
 }

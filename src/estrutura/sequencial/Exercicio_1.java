@@ -23,6 +23,8 @@ public class Exercicio_1 {
     media = (nota1 + nota2 + nota3 / 3);
 
     System.out.format("A média é: %.2f", media);
+    input.close();
+
   }
 
 }

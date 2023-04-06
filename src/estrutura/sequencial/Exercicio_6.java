@@ -18,5 +18,7 @@ public class Exercicio_6 {
     fahrenheit = (celsius * 1.8) + 32;
 
     System.out.println(celsius + "° = " + fahrenheit + "F");
+    input.close();
+
   }
 }

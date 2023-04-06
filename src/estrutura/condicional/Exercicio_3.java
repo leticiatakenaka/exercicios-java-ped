@@ -35,5 +35,7 @@ public class Exercicio_3 {
       raiz2 = (-b - Math.sqrt(resultado)) / (2 * a);
       System.out.format("x1 = %.3f\nx2 = %.3f", raiz1, raiz2);
     }
+    input.close();
+
   }
 }
